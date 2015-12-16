@@ -71,3 +71,7 @@ Reduces blocks of data in an `image`. Block size is inferred from the number of 
 #### `expand(image, f)`
 
 Expands blocks of data in an `image`. Block size is inferred from the number of arguments in `f`. See [blockman](https://github.com/mateogianolio/blockman).
+
+#### `map(image, f)`
+
+Iterates and applies a mapping function over blocks of data in an `image`. See [blockman](https://github.com/mateogianolio/blockman).

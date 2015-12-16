@@ -14,6 +14,9 @@
     expand:
       (image, f) =>
         image.data = bm.expand(image.data, f),
+    map:
+      (image, f) =>
+        image.data = bm.map(image.data, f),
     read:
       (file, type) => {
         type = type || Uint8ClampedArray;
