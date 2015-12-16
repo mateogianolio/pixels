@@ -39,13 +39,13 @@ px.reduce(image,
 );
 ```
 
-Expand back to original size and set `alpha` transparent for the brightest pixels.
+Expand back to original size and set `alpha` to a random value.
 
 ```javascript
 // expand [x, ...] => [r, g, b, a, ...]
 px.expand(image,
   (x) =>
-    [x, x, x, (x > 0.9) ? 0 : 1]
+    [x, x, x, Math.random()]
 );
 ```
 
