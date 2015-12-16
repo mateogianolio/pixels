@@ -7,16 +7,16 @@ $ npm install pixels
 $ npm test
 ```
 
-### Usage
-
 ```javascript
 var px = require('pixels');
 ```
 
+### Usage
+
 Read image into a `Float64Array`.
 
 ```javascript
-var image = px.read('./test/input.jpg', Float64Array);
+image = px.read('./test/input.jpg', Float64Array);
 ```
 
 Reduce image into [grayscale](https://en.wikipedia.org/wiki/Grayscale) bitmap.
