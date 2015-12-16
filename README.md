@@ -1,6 +1,6 @@
 # pixels
 
-Pixels is a minimal image processing library written in JavaScript.
+Pixels is a tiny image processing library written in JavaScript.
 
 ```bash
 $ npm install pixels
