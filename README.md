@@ -1,6 +1,6 @@
 # pixels
 
-Image processing library.
+Pixels is a minimal image processing library written in JavaScript.
 
 ```bash
 $ npm install pixels
@@ -53,6 +53,9 @@ px.write('./test/output.jpg', image);
 | Original | Processed PNG | Processed JPEG |
 | --- | --- | --- |
 | ![original](test/input.jpg) | ![png](test/output.png) | ![jpeg](test/output.jpg) |
+
+All this in 5 lines of code. You can also access the image data directly through `image.data`.
+See `test/test.js`.
 
 ### API
 
