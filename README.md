@@ -11,6 +11,8 @@ $ npm test
 var px = require('pixels');
 ```
 
+Currently supports read/write for [PNG](https://github.com/lukeapage/pngjs) and [JPEG](https://github.com/eugeneware/jpeg-js).
+
 ### Usage
 
 Read image into a `Float64Array`.
