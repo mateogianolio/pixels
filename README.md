@@ -16,7 +16,7 @@ var px = require('pixels');
 Read image into a `Float64Array`.
 
 ```javascript
-image = px.read('./test/input.jpg', Float64Array);
+var image = px.read('./test/input.jpg', Float64Array);
 ```
 
 Reduce image into [grayscale](https://en.wikipedia.org/wiki/Grayscale) bitmap.
