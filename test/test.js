@@ -13,7 +13,7 @@
    *   data: <Float64Array ...>
    * }
    **/
-   
+
   console.log('read input.jpg (' + image.width + 'x' + image.height + ')');
 
   // reduce [r, g, b, a, ...] => [x, ...]
@@ -26,10 +26,10 @@
   );
 
   // expand [x, ...] => [r, g, b, a, ...]
-  // and make brightest pixels transparent
+  // and set alpha to random
   px.expand(image,
     (x) =>
-      [x, x, x, (x > 0.9) ? 0 : 1]
+      [x, x, x, Math.random()]
   );
 
   px.write('./test/output.png', image);
